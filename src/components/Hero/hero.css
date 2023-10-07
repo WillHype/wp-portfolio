@@ -53,6 +53,7 @@
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
+    color: white;
 }
 
 @media screen and (max-width:840px){

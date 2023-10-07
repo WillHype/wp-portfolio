@@ -1,7 +1,8 @@
 import React from "react";
 import './navbar.css';
 import logo from '../../assets/logo.png';
-import contactBtn from '../../assets/contact.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-scroll';
 import BurgerMenu from "../BurgerMenu/burgermenu";
 
@@ -41,7 +42,7 @@ const Navbar = () => {
             </div>
             <BurgerMenu />
             <button className="menuBtn" onClick={() => document.getElementById('contact').scrollIntoView({behavior:'smooth'})}>
-                <img src={contactBtn} alt="" className="menuImg" />Contactez moi
+                <FontAwesomeIcon icon={faMessage} className="menuImg"/>Contactez moi
             </button>
         </nav>
     )
