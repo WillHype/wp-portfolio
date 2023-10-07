@@ -1,0 +1,18 @@
+const Works = () => {
+    return(
+        <section id="works">
+            <h2 className="worksTitle">Mon portfolio</h2>
+            <p className="worksDescription">Description...</p>
+            <div className="worksThumbs">
+                {projectData.map((project, index) => (
+                <div key={index} className="workItem">
+                    <img src={process.env.PUBLIC_URL + '/' + project.image} alt={project.name} className="worksImg" />
+                    <h3>{project.name}</h3>
+                    <p>{project.description}</p>
+                    {/* Ajoutez ici d'autres détails du projet comme les liens, les technologies utilisées, etc. */}
+                </div>
+        ))}
+            </div>
+        </section>
+    );
+}

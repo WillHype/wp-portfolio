@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Ohmyfood !",
+        "description": "Site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
+        "technologies": ["HTML", "Sass"],
+        "githubLink": "https://github.com/WillHype/P4-Ohmyfood",
+        "demoLink": "https://willhype.github.io/P4-Ohmyfood/",
+        "image": "portfolio-1.jpg"
+      },
+
+      {
+        "name": "Kasa App",
+        "description": "Application web de location immobilière avec React.",
+        "technologies": ["HTML", "CSS", "JavaScript","Sass"],
+        "githubLink": "https://github.com/WillHype/kasa-app",
+        "demoLink": "https://kasa-app-one.vercel.app/",
+        "image": "portfolio-2.jpg"
+      },
+
+      {
+        "name": "ArgentBank-website",
+        "description": "Application bancaire avec React et Redux avec appels API REST",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/WillHype/ArgentBank-website",
+        "demoLink": "https://demo.projet1.com",
+        "image": "portfolio-3.jpg"
+      },
+
+      {
+        "name": "Portfolio de Nina CARDUCCI",
+        "description": "Optimisation SEO d'un siteweb de photographe.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/WillHype/P9",
+        "demoLink": "https://willhype.github.io/P9/",
+        "image": "portfolio-4.jpg"
+      },
+
+      {
+        "name": "Booki",
+        "description": "Créer et intégrer la maquette de la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/WillHype/Booki",
+        "demoLink": "https://willhype.github.io/Booki/",
+        "image": "portfolio-5.jpg"
+      },
+
+      {
+        "name": "Book",
+        "description": "Book personnel en basse résolution de mes différents travaux",
+        "technologies": ["adobe CC"],
+        "githubLink": "#",
+        "demoLink": "Willy_POCHOT_bookDigital_onlineLOW.pdf",
+        "image": "portfolio-6.jpg" 
+      }
+
+]
