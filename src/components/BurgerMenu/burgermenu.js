@@ -25,7 +25,7 @@ const BurgerMenu = () => {
         smooth={true}
         offset={-100}
         duration={500}
-        onClick={closeMenu} // Fermez le menu lors du clic sur un lien
+        onClick={closeMenu}
       >
         Accueil
       </Link>
@@ -37,7 +37,7 @@ const BurgerMenu = () => {
         smooth={true}
         offset={-50}
         duration={500}
-        onClick={closeMenu} // Fermez le menu lors du clic sur un lien
+        onClick={closeMenu}
       >
         Compétences
       </Link>
@@ -49,7 +49,7 @@ const BurgerMenu = () => {
         smooth={true}
         offset={-50}
         duration={500}
-        onClick={closeMenu} // Fermez le menu lors du clic sur un lien
+        onClick={closeMenu}
       >
         Portfolio
       </Link>
@@ -61,7 +61,7 @@ const BurgerMenu = () => {
         smooth={true}
         offset={-50}
         duration={500}
-        onClick={closeMenu} // Fermez le menu lors du clic sur un lien
+        onClick={closeMenu}
       >
         Contact
       </Link>

@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <section id="contactPage">
       <div id="contact">
-        <h1 className="contactTitle">Contact</h1>
+        <h2 className="contactTitle">Contact</h2>
         <span className="contactDesc">Veillez remplir le formulaire ci-dessous pour échanger sur les opportunités.</span>
         <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
           <input type="text" className="name" placeholder="Nom" name='your_name' required />

@@ -9,7 +9,8 @@ const Works = () => {
     return(
         <section id="works">
             <h2 className="worksTitle">Mon portfolio</h2>
-            <p className="worksDescription">Description...</p>
+            <p className="worksDescription">Riche d'un parcours varié, mon portfolio présente avant tout mes compétences développées 
+            au cours de ma formation au sein d'OpenClassroom, néanmoins n'hésitez pas à consulter mon book digital.</p>
             <div className="worksThumbs">
                 {projectData.map((project, index) => (
                 <div key={index} className="workItem">

@@ -16,6 +16,12 @@
     font-weight: 300;
 }
 
+.contactTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
 .contactForm{
     margin: 1rem;
     display: flex;

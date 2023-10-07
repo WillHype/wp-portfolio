@@ -12,4 +12,6 @@ body{
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
