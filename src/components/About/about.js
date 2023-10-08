@@ -41,7 +41,7 @@ const About = () => {
                                 <li><span>2019</span><br />Graphiste/Webdesigner à MAXIBURO (Groupe Bruneau)</li>
                                 <li><span>2015-2018</span><br />Freelance</li>
                                 <li><span>2015</span><br />Graphiste chez Urban Locker</li>
-                                <li><span>2014 - 2015</span><br />Consultant digite pour MyWebSpot</li>
+                                <li><span>2014 - 2015</span><br />Consultant digital pour MyWebSpot</li>
                                 <li><span>2012 - 2014</span><br />Chef de projet junior chez Naïve Records</li>
                                 <li><span>2012</span><br />Assistant directeur artistique chez Gong Média</li>
                             </ul>
@@ -49,7 +49,7 @@ const About = () => {
                         </div>
                         <div className={`tab-contents ${activeTab === 'formations' ? 'active-tab' : ''}`} id="formations">
                             <ul>
-                                <li><span>2023</span><br />Développeur front-end à OpenClassRoom</li>
+                                <li><span>2023</span><br />Formation Développeur front-end chez OpenClassRoom</li>
                                 <li><span>2011-2014</span><br />Bachelor édition et communication numériques à IESA Multimédia</li>
                             </ul>
                         </div>
