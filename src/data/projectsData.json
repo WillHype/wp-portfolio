@@ -19,7 +19,7 @@
 
       {
         "name": "ArgentBank-website",
-        "description": "Application bancaire avec React et Redux avec appels API REST",
+        "description": "Application bancaire utilisant React et Redux avec appels API REST",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "githubLink": "https://github.com/WillHype/ArgentBank-website",
         "demoLink": "https://demo.projet1.com",
