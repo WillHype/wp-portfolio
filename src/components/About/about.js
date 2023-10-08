@@ -30,7 +30,7 @@ const About = () => {
                             <ul>
                                 <li>Graphisme Web<span><br />Design d'interface, composition</span></li>
                                 <li>Développement front-end<span><br />Intégration responsive, (HTML, CSS, SASS, JavaScript, 
-                                React & Redux), versioning via web Git & GitHub </span></li>
+                                React & Redux), <br />versioning via web Git & GitHub </span></li>
                                 <li>Gestion de projet<span><br />Planification</span></li>
                             </ul>
                         </div>
