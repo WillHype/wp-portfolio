@@ -29,7 +29,8 @@ const About = () => {
                         <div className={`tab-contents ${activeTab === 'competences' ? 'active-tab' : ''}`} id="competences">
                             <ul>
                                 <li>Graphisme Web<span><br />Design d'interface, composition</span></li>
-                                <li>Développement front-end<span><br />Intégration responsive</span></li>
+                                <li>Développement front-end<span><br />Intégration responsive, (HTML, CSS, SASS, JavaScript, 
+                                React & Redux), versioning via web Git & GitHub </span></li>
                                 <li>Gestion de projet<span><br />Planification</span></li>
                             </ul>
                         </div>
@@ -49,7 +50,7 @@ const About = () => {
                         </div>
                         <div className={`tab-contents ${activeTab === 'formations' ? 'active-tab' : ''}`} id="formations">
                             <ul>
-                                <li><span>2023</span><br />Formation Développeur front-end chez OpenClassRoom</li>
+                                <li><span>2023</span><br />Formation Développeur Intégrateur Web chez <a href="https://openclassrooms.com/fr/paths/594-integrateur-web" target="_blank" className="aboutLink">OpenClassRoom</a> </li>
                                 <li><span>2011-2014</span><br />Bachelor édition et communication numériques à IESA Multimédia</li>
                             </ul>
                         </div>
