@@ -1,5 +1,5 @@
 #hero{
-    height: calc(65vh - 7rem);
+    height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -9,15 +9,15 @@
 }
 .bg{
     position: absolute;
-    top: 2rem;
+    top: -1rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 50vh;
+    height: 64vh;
 }
 .heroContent{
-    height: 65vh;
-    /* width: 100vw; */
+    height: 100vh;
+    width: 100vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -65,9 +65,9 @@
     .bg{
         right: -10vw;
     }
-    /* .heroContent{
+    .heroContent{
         font-size: 10vw;
-    } */
+    }
     .hello{
         font-size: 4.5vw;
     }

@@ -52,6 +52,9 @@ const Contact = () => {
   return (
     <section id="contactPage">
       <div id="contact">
+        <div className="quote">
+          <p className='quoteDesc'>CODING IS LOGIC</p>
+        </div>
         <h2 className="contactTitle">Contact</h2>
         <span className="contactDesc">Veillez remplir le formulaire ci-dessous pour échanger sur les opportunités.</span>
         <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
