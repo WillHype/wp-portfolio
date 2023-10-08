@@ -31,9 +31,9 @@
 
 }
 
-.menuBtn{
+.menuBtn {
     background: #7451eb;
-    color:white;
+    color: white;
     border: none;
     display: flex;
     align-items: center;
@@ -41,7 +41,17 @@
     padding: 0 1rem;
     border-radius: 2rem;
     cursor: pointer;
+    transition: transform 0.2s;
 }
+
+.menuBtn:active {
+    transform: translateY(2px);
+}
+
+.menuBtn:hover {
+    background: #5a3abb;
+}
+
 .menuImg{
     height: 1rem;
     width: 1rem;
