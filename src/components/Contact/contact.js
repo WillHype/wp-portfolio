@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import './contact.css';
 import emailjs from '@emailjs/browser';
+import linkedIn from '../../assets/linkedin.svg';
+import github from '../../assets/github.svg';
 
 const Contact = () => {
   const [buttonText, setButtonText] = useState("Envoyer");
@@ -70,6 +72,10 @@ const Contact = () => {
             {buttonText}
           </button>
         </form>
+        <div className="links">
+            <a href="https://fr.linkedin.com/"><img src={linkedIn} alt="linkedin" className="link"/></a>
+            <a href="https://github.com/WillHype"><img src={github} alt="github" className="link" /></a>
+          </div>
       </div>
     </section>
   );

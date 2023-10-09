@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                         <div className={`tab-contents ${activeTab === 'formations' ? 'active-tab' : ''}`} id="formations">
                             <ul>
-                                <li><span>2023</span><br />Formation Développeur Intégrateur Web chez <a href="https://openclassrooms.com/fr/paths/594-integrateur-web" target="_blank" className="aboutLink">OpenClassRoom</a> </li>
+                                <li><span>2023</span><br />Formation Développeur Intégrateur Web chez <a href="https://openclassrooms.com/fr/paths/594-integrateur-web" target="_blank" className="aboutLink">OpenClassRooms</a> </li>
                                 <li><span>2011-2014</span><br />Bachelor édition et communication numériques à IESA Multimédia</li>
                             </ul>
                         </div>

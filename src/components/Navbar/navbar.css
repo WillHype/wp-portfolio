@@ -15,8 +15,8 @@
 
 .logo {
     object-fit: cover;
-    /* height: 3rem; */
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .menuListItem{

@@ -74,3 +74,20 @@
     color: white;
     transition: background-color 0.3s ease-in-out;
   }
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.link{
+    height: 2rem;
+  }
+
+.link {
+    height: 2rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.2);
+}
