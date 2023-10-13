@@ -25,7 +25,7 @@
 }
 
 .menuListItem:hover{
-    color: #7451eb;
+    color: #BCAEF4; /*Correction WAVE*/
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #7451eb;
 
@@ -59,7 +59,7 @@
 }
 
 .navbar .active{
-    color:#7451eb;
+    color:#BCAEF4; /*Correction WAVE*/
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #7451eb;
 }

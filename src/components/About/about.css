@@ -48,7 +48,7 @@
     border-radius: 15px;
 }
 .aboutLink{
-    color: #7451eb;
+    color: #BCAEF4; /*Correction WAVE*/
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@
     content: '';
     width: 0;
     height: 3px;
-    background: #7451eb;
+    background: #BCAEF4; /*Correction WAVE*/
     position: absolute;
     left: 0;
     bottom: -0.5rem;
@@ -86,7 +86,7 @@
 }
 
 .tab-contents ul li span{
-    color: #8365e7;
+    color: #BCAEF4; /*Correction WAVE*/
     font-size: 14px;
 }
 

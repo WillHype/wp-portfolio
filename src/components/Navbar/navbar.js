@@ -30,8 +30,15 @@ const Navbar = () => {
                 to="works" 
                 spy={true} 
                 smooth={true} 
-                offset={-50} 
+                offset={40} 
                 duration={500}>Portfolio</Link>
+                <Link className="menuListItem"
+                activeClass="active" 
+                to="about" 
+                spy={true} 
+                smooth={true} 
+                offset={-40} 
+                duration={500}>À propos</Link>
                 <Link className="menuListItem"
                 activeClass="active" 
                 to="contactPage" 

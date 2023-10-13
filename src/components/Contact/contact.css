@@ -91,3 +91,7 @@
 .link:hover {
     transform: scale(1.2);
 }
+
+#name-label, #email-label, #msg-label{
+    display: none;
+}

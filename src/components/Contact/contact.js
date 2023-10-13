@@ -60,9 +60,12 @@ const Contact = () => {
         <h2 className="contactTitle">Contact</h2>
         <span className="contactDesc">Veuillez remplir le formulaire ci-dessous pour échanger sur les opportunités.</span>
         <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
-          <input type="text" className="name" placeholder="Nom" name='your_name' required />
-          <input type="email" className="email" placeholder="Votre Email" name='your_email' required />
-          <textarea className="msg" name="message" placeholder="Votre message" rows="5" required></textarea>
+          <label htmlFor="name" title='User name' id="name-label">Nom</label>
+          <input type="text" id="name" className="name" placeholder="Nom" name='your_name' aria-labelledby="name-label" required />
+          <label htmlFor="email" title='User email' id='email-label'>Email</label>
+          <input type="email" className="email" placeholder="Votre Email" name='your_email' aria-labelledby='email-label' required />
+          <label htmlFor="message" title="User's message" id='msg-label'>Message</label>
+          <textarea className="msg" name="message" placeholder="Votre message" rows="5" aria-labelledby='msg-label' required></textarea>
           <button
             onClick={handleClick}
             type="submit"

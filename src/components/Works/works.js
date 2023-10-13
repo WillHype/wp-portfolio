@@ -30,7 +30,7 @@ const Works = () => {
         <section id="works">
             <h2 className="worksTitle">Mon portfolio</h2>
             <p className="worksDescription">Riche d'un parcours varié, mon portfolio présente avant tout mes compétences développées 
-            au cours de ma formation au sein d'OpenClassroom, néanmoins n'hésitez pas à consulter mon book digital.</p>
+            au cours de ma formation au sein d'OpenClassrooms, néanmoins n'hésitez pas à consulter mon book digital.</p>
             <div className="worksThumbs">
                 {projectData.map((project, index) => (
                 <div key={index} className="workItem">
@@ -38,17 +38,9 @@ const Works = () => {
                     <div className="layer">
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>
-                        {/* <div className="technologies">
-                        <h4>Technologies :</h4>
-                        <div className="technology-icons">
-                            {project.technologies.map((tech, techIndex) => (
-                                <span key={techIndex}>
-                                    {getIconForTechnology(tech)} {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div> */}
-                    <a href={project.demoLink}><FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "#7451eb",}} /></a>
+                        <a href={project.demoLink} aria-label={`Voir le projet ${project.name}`}>
+                        <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{color: "#7451eb",}} /></span>
+                        </a>
                     </div>
                     <div className="technologies">
                     <Technos technologies={project.technologies} /> 
