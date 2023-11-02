@@ -76,7 +76,7 @@ const Contact = () => {
           </button>
         </form>
         <div className="links">
-            <a href="https://fr.linkedin.com/"><img src={linkedIn} alt="linkedin" className="link"/></a>
+            <a href="https://www.linkedin.com/in/willy-pochot-a48678297/"><img src={linkedIn} alt="linkedin" className="link"/></a>
             <a href="https://github.com/WillHype"><img src={github} alt="github" className="link" /></a>
           </div>
       </div>

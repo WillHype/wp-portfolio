@@ -7,7 +7,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
     const redirection = () => {
-        window.open("https://fr.linkedin.com" , "_blank");
+        window.open("https://www.linkedin.com/in/willy-pochot-a48678297/" , "_blank");
       };
     return(
         <section id="hero">
