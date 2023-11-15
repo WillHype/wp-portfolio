@@ -1,5 +1,13 @@
 [
     {
+      "name": "Belouga's Shop",
+      "description": "Site e-commerce complet utilisant React JS",
+      "technologies": ["HTML", "JS","Sass", "React"],
+      "githubLink": "https://github.com/WillHype/Belougas-shop",
+      "demoLink": "https://belougas-shop.vercel.app/",
+      "image": "portfolio-7.jpg"
+    },
+    {
         "name": "Ohmyfood !",
         "description": "Site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
         "technologies": ["HTML", "Sass"],
