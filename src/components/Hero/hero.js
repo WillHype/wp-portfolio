@@ -17,7 +17,9 @@ const Hero = () => {
                 <p className="introPara">Je suis développeur Front-end junior basé en île-de-France ayant <br /> de l'expérience en Design et Web</p>
                 <button className="btn" onClick={redirection}><FontAwesomeIcon icon={faBriefcase} className="btnImg"/>Discutons</button>
             </div>
-            <img src={background} alt="profil" className="bg" />
+            <div className="hero-img">
+                <img src={background} alt="profil" className="bg" />
+            </div>
         </section>
     )
 }
