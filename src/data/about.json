@@ -1,0 +1,31 @@
+[
+    {
+      "input": "Willy.currentLocation",
+      "return": "Draveil, Essonne"
+    },
+    {
+      "input": "Willy.contactInfo",
+      "return": [
+        "<a href=\"mailto:willy.pochot@gmail.com\">willy.pochot@gmail.com</a>",
+        " <a rel=\"noopener\" href=\"https://www.linkedin.com/in/willy-pochot-a48678297\" target=\"_blank\">LinkedIn</a>",
+        " <a rel=\"noopener\" href=\"https://github.com/WillHype\" target=\"_blank\">github</a>"
+      ]
+    },
+    {
+      "input": "Willy.resume",
+      "return": "<a rel=\"noopener\" href=\"CV2023_light.pdf\" target=\"_blank\">WP_CV.pdf</a>"
+    },
+    {
+      "input": "Willy.interests",
+      "return": "[\"technologies\", \" e-sports\", \" work out\", \" drawing\"]"
+    },
+    {
+      "input": "Willy.education",
+      "return": "Front end developement - OpenClassRooms, Bachelor in publishing & digital communications - IESA Multimedia"
+    },
+    {
+      "input": "Willy.skills",
+      "return": "[\"Sass\", \"JavaScript\", \"React\", \"Redux\", \"webpack\", \"git\"]"
+    }
+  ]
+  

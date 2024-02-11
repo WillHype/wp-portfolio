@@ -1,5 +1,5 @@
 #hero{
-    height: calc(100vh - 4rem);
+    height: calc(50vh - 4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -17,7 +17,7 @@
     height: 25vh;
 }
 .heroContent{
-    height: 100vh;
+    /* height: 100vh; */
     /* width: 100vw; */
     padding: 2rem;
     font-size: 3rem;

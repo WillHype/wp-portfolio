@@ -1,6 +1,5 @@
 import React from "react";
 import './hero.css';
-import background from '../../assets/image.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,9 +15,6 @@ const Hero = () => {
                 <span className="introText">Je suis <span className="introName">Willy</span> <br />Développeur Front-end</span>
                 <p className="introPara">Je suis développeur Front-end junior basé en île-de-France ayant <br /> de l'expérience en Design et Web</p>
                 <button className="btn" onClick={redirection}><FontAwesomeIcon icon={faBriefcase} className="btnImg"/>Discutons</button>
-            </div>
-            <div className="hero-img">
-                <img src={background} alt="profil" className="bg" />
             </div>
         </section>
     )

@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer className="footer">
-            Developped by Willy POCHOT 2023
+            Made by Willy POCHOT © 2024
         </footer>
 
     );

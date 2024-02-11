@@ -1,6 +1,5 @@
 import React from "react";
 import './navbar.css';
-import logo from '../../assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-scroll';
@@ -9,7 +8,6 @@ import BurgerMenu from "../BurgerMenu/burgermenu";
 const Navbar = () => {
     return(
         <nav className="navbar">
-            <img src={logo} alt="Logo" className="logo"/>
             <div className="menu">
                 <Link className="menuListItem"
                 activeClass="active" 
@@ -32,20 +30,7 @@ const Navbar = () => {
                 smooth={true} 
                 offset={40} 
                 duration={500}>Portfolio</Link>
-                <Link className="menuListItem"
-                activeClass="active" 
-                to="about" 
-                spy={true} 
-                smooth={true} 
-                offset={-40} 
-                duration={500}>À propos</Link>
-                <Link className="menuListItem"
-                activeClass="active" 
-                to="contactPage" 
-                spy={true} 
-                smooth={true} 
-                offset={-50} 
-                duration={500}>Contact</Link>
+                
             </div>
             <BurgerMenu />
             <button className="menuBtn" onClick={() => document.getElementById('contact').scrollIntoView({behavior:'smooth'})}>

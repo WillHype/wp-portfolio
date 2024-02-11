@@ -22,7 +22,7 @@ const Skills = () => {
                 <div className="skillBar">
                     <div className="skillBarText">
                         <h2>Front-end</h2>
-                        <p>Mon apprentissage du Web était centré sur ces technologies, néanmoins je saurais m'adapter aux autres technologies en fonction des projets.</p>
+                        <p>Les technologies sur lesquelles je développe tout en continuant d'apprendre.</p>
                     </div>
                     <div className="techIconsContainer">
                         <ul>
@@ -38,7 +38,7 @@ const Skills = () => {
                 <div className="skillBar">
                     <div className="skillBarText">
                         <h2>Design</h2>
-                        <p>La force de mon bachelor en édition et communication numérique était le panel de technologies diverses et variées que j'ai pu aborder au cours de mon parcours. Mon affinité s'est portée naturellement vers le graphisme web.</p>
+                        <p>La force de mon bachelor en édition et communication numérique était le panel de technologies diverses et variées que j'ai pu aborder au cours de mon parcours.</p>
                     </div>
                     <div className="techIconsContainer">
                         <ul>
