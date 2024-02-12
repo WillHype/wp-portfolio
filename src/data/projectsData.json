@@ -1,56 +1,120 @@
 [
-    {
-        "name": "Ohmyfood !",
-        "description": "Site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
-        "technologies": ["HTML", "Sass"],
-        "githubLink": "https://github.com/WillHype/P4-Ohmyfood",
-        "demoLink": "https://willhype.github.io/P4-Ohmyfood/",
-        "image": "portfolio-1.jpg"
-      },
-
-      {
-        "name": "Kasa App",
-        "description": "Application web de location immobilière avec React.",
-        "technologies": ["HTML", "JS","Sass", "React"],
-        "githubLink": "https://github.com/WillHype/kasa-app",
-        "demoLink": "https://kasa-app-one.vercel.app/",
-        "image": "portfolio-2.jpg"
-      },
-
-      {
-        "name": "ArgentBank-website",
-        "description": "Application bancaire utilisant React et Redux avec appels API REST",
-        "technologies": ["HTML", "JS", "React", "Redux"],
-        "githubLink": "https://github.com/WillHype/ArgentBank-website",
-        "demoLink": "https://demo.projet1.com",
-        "image": "portfolio-3.jpg"
-      },
-
-      {
-        "name": "Portfolio de Nina CARDUCCI",
-        "description": "Optimisation SEO d'un siteweb de photographe.",
-        "technologies": ["HTML","JS"],
-        "githubLink": "https://github.com/WillHype/P9",
-        "demoLink": "https://willhype.github.io/P9/",
-        "image": "portfolio-4.jpg"
-      },
-
-      {
-        "name": "Booki",
-        "description": "Créer et intégrer la maquette de la page d'accueil d'une agence de voyage avec HTML & CSS",
-        "technologies": ["HTML"],
-        "githubLink": "https://github.com/WillHype/Booki",
-        "demoLink": "https://willhype.github.io/Booki/",
-        "image": "portfolio-5.jpg"
-      },
-
-      {
-        "name": "Book",
-        "description": "Book personnel en basse résolution de mes différents travaux",
-        "technologies": ["adobe CC"],
-        "githubLink": "#",
-        "demoLink": "Willy_POCHOT_bookDigital_onlineLOW.pdf",
-        "image": "portfolio-6.jpg" 
-      }
-
+  {
+    "name": "Weather app",
+    "description": "Application météo utilisant l'API openweather",
+    "technologies": [
+      "HTML",
+      "JS",
+      "SCSS",
+      "API"
+    ],
+    "githubLink": "https://github.com/WillHype/weather-app",
+    "demoLink": "https://willhype.github.io/weather-app/",
+    "image": "portfolio-10.jpg"
+  },
+  {
+    "name": "To-do list app",
+    "description": "Quiz App avec JavaScript",
+    "technologies": [
+      "HTML",
+      "JS",
+      "SCSS"
+    ],
+    "githubLink": "https://github.com/WillHype/todo-list",
+    "demoLink": "https://willhype.github.io/todo-list/",
+    "image": "portfolio-8.jpg"
+  },
+  {
+    "name": "Quizz app",
+    "description": "Application de Quizz avec Javascript",
+    "technologies": [
+      "HTML",
+      "JS",
+      "SCSS"
+    ],
+    "githubLink": "https://github.com/WillHype/quizz-app",
+    "demoLink": "https://willhype.github.io/quizz-app/",
+    "image": "portfolio-9.jpg"
+  },
+  {
+    "name": "Calculator app",
+    "description": "Application de calculatrice avec React",
+    "technologies": [
+      "HTML",
+      "JS",
+      "React",
+      "Redux"
+    ],
+    "githubLink": "https://github.com/WillHype/calculator-app",
+    "demoLink": "https://calculator-app-nine-gamma.vercel.app/",
+    "image": "portfolio-11.jpg"
+  },
+  {
+    "name": "Ohmyfood !",
+    "description": "Site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
+    "technologies": [
+      "HTML",
+      "SCSS"
+    ],
+    "githubLink": "https://github.com/WillHype/P4-Ohmyfood",
+    "demoLink": "https://willhype.github.io/P4-Ohmyfood/",
+    "image": "portfolio-1.jpg"
+  },
+  {
+    "name": "Kasa App",
+    "description": "Application web de location immobilière avec React.",
+    "technologies": [
+      "HTML",
+      "JS",
+      "SCSS",
+      "React"
+    ],
+    "githubLink": "https://github.com/WillHype/kasa-app",
+    "demoLink": "https://kasa-app-one.vercel.app/",
+    "image": "portfolio-2.jpg"
+  },
+  {
+    "name": "ArgentBank-website",
+    "description": "Application bancaire utilisant React et Redux avec appels API REST",
+    "technologies": [
+      "HTML",
+      "JS",
+      "React",
+      "Redux"
+    ],
+    "githubLink": "https://github.com/WillHype/ArgentBank-website",
+    "demoLink": "https://demo.projet1.com",
+    "image": "portfolio-3.jpg"
+  },
+  {
+    "name": "Portfolio de Nina CARDUCCI",
+    "description": "Optimisation SEO d'un siteweb de photographe.",
+    "technologies": [
+      "HTML",
+      "JS"
+    ],
+    "githubLink": "https://github.com/WillHype/P9",
+    "demoLink": "https://willhype.github.io/P9/",
+    "image": "portfolio-4.jpg"
+  },
+  {
+    "name": "Booki",
+    "description": "Créer et intégrer la maquette de la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "technologies": [
+      "HTML"
+    ],
+    "githubLink": "https://github.com/WillHype/Booki",
+    "demoLink": "https://willhype.github.io/Booki/",
+    "image": "portfolio-5.jpg"
+  },
+  {
+    "name": "Book",
+    "description": "Book personnel en basse résolution de mes différents travaux",
+    "technologies": [
+      "adobe CC"
+    ],
+    "githubLink": "#",
+    "demoLink": "Willy_POCHOT_bookDigital_onlineLOW.pdf",
+    "image": "portfolio-6.jpg"
+  }
 ]
