@@ -1,5 +1,18 @@
 [
   {
+    "name": "Belouga's Shop",
+    "description": "Site e-commerce avec React. La partie backend est en cours de construction",
+    "technologies": [
+      "HTML",
+      "JS",
+      "SCSS",
+      "React"
+    ],
+    "githubLink": "https://github.com/WillHype/Belougas-shop",
+    "demoLink": "https://belougas-shop.vercel.app/",
+    "image": "portfolio-7.jpg"
+  },
+  {
     "name": "Weather app",
     "description": "Application météo utilisant l'API openweather",
     "technologies": [
@@ -83,7 +96,7 @@
       "Redux"
     ],
     "githubLink": "https://github.com/WillHype/ArgentBank-website",
-    "demoLink": "https://demo.projet1.com",
+    "demoLink": "#",
     "image": "portfolio-3.jpg"
   },
   {
