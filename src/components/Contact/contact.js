@@ -11,7 +11,7 @@ const Contact = () => {
     <section id="contactPage">
       <div id="contact">
         <div className="quote">
-          <p className='quoteDesc'>CODING IS LOGIC</p>
+          <p className='quoteDesc'>SMALL DETAILS MAKE BIG DIFFERENCES</p>
         </div>
         <h2 className="contactTitle">Contact</h2>
         
