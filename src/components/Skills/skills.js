@@ -17,12 +17,12 @@ const Skills = () => {
     return(
         <section id="skills">
             <h1 className="skillTitle">Ce que je fais</h1>
-            <p className="skillDescription">Développeur Front-end junior, je souhaite renforcer mes compétences sur React JS pour en devenir un spécialiste. Apprenons ensemble et collaborons ! </p>
+            <p className="skillDescription">J'adopte une approche centrée sur les utilisateurs afin de proposer des designs qui répondront au mieux à leurs besoins. Apprenons ensemble et collaborons ! </p>
             <div className="skillBars">
                 <div className="skillBar">
                     <div className="skillBarText">
                         <h2>Front-end</h2>
-                        <p>Les technologies sur lesquelles je développe tout en continuant d'apprendre.</p>
+                        <p>Les technologies sur lesquelles je développe.</p>
                     </div>
                     <div className="techIconsContainer">
                         <ul>
@@ -38,7 +38,7 @@ const Skills = () => {
                 <div className="skillBar">
                     <div className="skillBarText">
                         <h2>Design</h2>
-                        <p>La force de mon bachelor en édition et communication numérique était le panel de technologies diverses et variées que j'ai pu aborder au cours de mon parcours.</p>
+                        <p>Les principaux outils que j'utilise au quotidien.</p>
                     </div>
                     <div className="techIconsContainer">
                         <ul>
