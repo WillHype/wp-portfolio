@@ -6,6 +6,9 @@
     overflow: hidden;
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 
 }
 .bg{
@@ -28,8 +31,9 @@
 }
 
 .hello{
-    font-size: 1.75rem;
+    font-size: clamp(1.5rem, 2.5vw, 3rem); /* Ajuste dynamiquement la taille du texte */
     font-weight: 100;
+    margin-bottom: 0.5rem; /* Ajoute un espace sous le texte */
 }
 
 .introName{
@@ -39,6 +43,11 @@
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
+}
+.profilPic{
+    width: 250px;
+    align-self: center;
+    margin: 0 auto;
 }
 .btn{
     background: #7451eb;
@@ -67,10 +76,11 @@
         right: -10vw;
     }
     .heroContent{
-        font-size: 10vw;
+        font-size: 2rem;
+        align-items: center;
     }
     .hello{
-        font-size: 4.5vw;
+        font-size: 2.5rem;
     }
 }
 
@@ -80,5 +90,16 @@
     }
     #hero{
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .heroContent {
+        font-size: 1.5rem;
+    }
+    .hello {
+        font-size: 2rem;
+    }
+    .profilPic {
+        margin-top: 1rem;
     }
 }
