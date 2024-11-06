@@ -1,5 +1,5 @@
 #hero{
-    height: calc(50vh - 4rem);
+    height: auto;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
